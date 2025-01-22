@@ -1,10 +1,10 @@
+# MICROSOFT FOUNDATION CLASS LIBRARY : ptstopolygons
+
 The PointsToPolygons repo contains the source code of the ptstopolygons.dll that the IBModeler 2.0 application uses to convert a cloud of points in 3D space to a 3D model. It creates triangular meshes defining the complete surface of the model, deriving it from the original cloud of points in the 3D space.
 
 Point data in 3D space can grow exponentially when you multiply X axes times Y axes times Z. So this library does a lot of optimizations to store the data in the most optimal way. Bits are used instead of a byte for boolean data. Intelligent swapping between in memory data and file storage data ensures the best use of storage space while also keeping it performant by reducing the number of reads and writes to the file system.
 
-========================================================================
-MICROSOFT FOUNDATION CLASS LIBRARY : ptstopolygons
-========================================================================
+## Original instructions from AppWizard when this library was created
 
 AppWizard has created this ptstopolygons DLL for you. This DLL not only
 demonstrates the basics of using the Microsoft Foundation classes but
@@ -45,8 +45,7 @@ provided to run with Microsoft Windows. It defines parameters
 such as the name and description of the DLL. It also exports
 functions from the DLL.
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
+### Other standard files:
 
 StdAfx.h, StdAfx.cpp
 These files are used to build a precompiled header (PCH) file
@@ -56,10 +55,7 @@ Resource.h
 This is the standard header file, which defines new resource IDs.
 Microsoft Visual C++ reads and updates this file.
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
+### Other notes:
 
 AppWizard uses "TODO:" to indicate parts of the source code you
 should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
