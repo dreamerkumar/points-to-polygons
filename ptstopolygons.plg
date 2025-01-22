@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ptstopolygons - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/ptstopolygons.res" /d "NDEBUG" /d "_AFXDLL" "G:\development\ptstopolygons\ptstopolygons.rc"" 
+Creating temporary file "F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP72.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ptstopolygons.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\development\ptstopolygons\cubeStatus.cpp"
+"G:\development\ptstopolygons\defintions.cpp"
+"G:\development\ptstopolygons\filepolygons.cpp"
+"G:\development\ptstopolygons\filereadpoints.cpp"
+"G:\development\ptstopolygons\pointstopolygons.cpp"
+"G:\development\ptstopolygons\ptstopolygons.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP72.tmp" 
+Creating temporary file "F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP73.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ptstopolygons.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\development\ptstopolygons\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP73.tmp" 
+Creating temporary file "F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ptstopolygons.pdb" /machine:I386 /def:".\ptstopolygons.def" /out:"Release/ptstopolygons.dll" /implib:"Release/ptstopolygons.lib" 
+.\Release\cubeStatus.obj
+.\Release\defintions.obj
+.\Release\filepolygons.obj
+.\Release\filereadpoints.obj
+.\Release\pointstopolygons.obj
+.\Release\ptstopolygons.obj
+.\Release\StdAfx.obj
+.\Release\ptstopolygons.res
+]
+Creating command line "link.exe @F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cubeStatus.cpp
+defintions.cpp
+filepolygons.cpp
+filereadpoints.cpp
+pointstopolygons.cpp
+ptstopolygons.cpp
+Generating Code...
+G:\development\ptstopolygons\filereadpoints.cpp(382) : warning C4715: 'fileReadPoints::isFaceWithValidPt' : not all control paths return a value
+Linking...
+   Creating library Release/ptstopolygons.lib and object Release/ptstopolygons.exp
+
+
+
+<h3>Results</h3>
+ptstopolygons.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
